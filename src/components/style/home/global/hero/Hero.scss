@@ -1,0 +1,44 @@
+#hero {
+  background: url("./../../../../../assets/img/herobgggggg.png") no-repeat center/cover;
+  min-height: 220vh;
+  position: relative;
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--left {
+      padding-top: 200px;
+
+      h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 60px;
+        color: #FFFFFF;
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+
+        margin-top: 25px;
+
+        color: #FFFFFF;
+      }
+    }
+  }
+
+  .articless {
+    position: absolute;
+    right: 37%;
+    top: 67%;
+
+    h1 {
+      color: #ffffff;
+      font-size: 25px;
+    }
+
+  }
+}
