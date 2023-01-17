@@ -32,8 +32,8 @@ const Header = () => {
                                 <img src={logo} alt=""/>
                             </NavLink>
                             <div className="header-left-nav">
-                                <NavLink href="#" to="/school">О школе</NavLink>
-                                <NavLink href="#" to={"/our_curses"}>Наши курсы</NavLink>
+                                <NavLink to="/school">О школе</NavLink>
+                                <NavLink to={"/our_curses"}>Наши курсы</NavLink>
                                 <NavLink to="/about">О нас</NavLink>
                             </div>
                         </div>
@@ -45,10 +45,14 @@ const Header = () => {
                             </NavLink>
                             {/*<NavLink to="log_in">*/}
                             <div>
-                            <button className="header-btn-come" onClick={() => setModalActive(true)}>Войти</button>
-                                <Modal active={modalActive} setActive={setModalActive}>
+                                <button className="header-btn-come" onClick={() => setModalActive(true)}>Войти</button>
+                                <Log_in active={modalActive} setActive={setModalActive}>
+                                    <div className="modal--block">
+                                        <div className="modal--block--inputs">
 
-                                </Modal>
+                                        </div>
+                                    </div>
+                                </Log_in>
                             </div>
                             {/*</NavLink>*/}
                             <NavLink to="/register">
