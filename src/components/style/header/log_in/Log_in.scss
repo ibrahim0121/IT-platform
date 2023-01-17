@@ -7,6 +7,14 @@
     justify-content: center;
     flex-direction: column;
 
+    &__img {
+      img{
+        width: 180px;
+        padding-bottom:40px;
+      }
+
+    }
+
     &__inputs {
       &--item {
         &__email {
@@ -39,13 +47,13 @@
 
           input, input {
             width: 670px;
-            height: 57px;
+            height: 62px;
             color: #FFFFFF;
             padding: 0 20px;
             font-size: 24px;
             font-weight: 400;
             text-transform: capitalize;
-            background: transparent;
+            background:none;
             border-radius: 10px;;
             border: 1px solid white;
 
@@ -54,9 +62,11 @@
           &--email input {
             text-transform: lowercase;
           }
-
-          .input--email {
-
+          .iconPassword{
+            position: absolute;
+            top: 50px;
+            font-size: 20px;
+            right: 10px;
           }
         }
 
@@ -65,7 +75,6 @@
           align-items: center;
           justify-content: space-between;
           margin-top: 20px;
-
           button {
             width: 271px;
             height: 56px;
@@ -78,7 +87,6 @@
             color: #FFFFFF;
             cursor: pointer;
           }
-
           a {
             font-weight: 500;
             font-size: 16px;
@@ -89,4 +97,7 @@
       }
     }
   }
+}
+.line{
+  margin-top: 4px;
 }
