@@ -47,7 +47,7 @@ const Header = () => {
                             <div>
                                 <button className="header-btn-come" onClick={() => setModalActive(true)}>Войти</button>
                                 <Log_in active={modalActive} setActive={setModalActive}>
-                                    <div className="modal--block">
++                                    <div className="modal--block">
                                         <div className="modal--block--inputs">
 
                                         </div>

@@ -1,0 +1,44 @@
+#subscribe {
+  .subscribe {
+    background: #FFFFFF;
+    height: 180px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+
+    &--block__title {
+      h2 {
+        font-size: 28px;
+      }
+
+    }
+
+    &--block__btns {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      button {
+        background: #034078;
+        color: #FFFFFF;
+        border: none;
+        width: 240px;
+        font-size: 16px;
+        border-radius: 7px;
+        height: 50px;
+        cursor: pointer;
+        outline: none;
+      }
+
+      .span {
+        text-decoration: none;
+        p{
+          color:#767676
+        }
+      }
+    }
+
+  }
+}

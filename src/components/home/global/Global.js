@@ -1,11 +1,16 @@
 import React from 'react';
 import Hero from "./hero/Hero";
-import Articles from "./articles/Articles";
+import Subscribe from "./subscribe/Subscribe";
+import Questions from "./questions/Questions";
+import Request from "./request/Request";
 
 const Global = () => {
     return (
         <>
-          <Hero/>
+            <Hero/>
+            <Subscribe/>
+            <Questions/>
+            <Request/>
         </>
     );
 };
