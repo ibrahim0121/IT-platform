@@ -1,7 +1,4 @@
 import React from 'react';
-// import coding from '../../../images/Ellipse4.png'
-// import Ellipse3 from '../../../images/Ellipse 3.png'
-import men from '../../../../assets/img/herobgggggg.png'
 import Articles from "../articles/Articles";
 
 const Hero = () => {
@@ -18,14 +15,13 @@ const Hero = () => {
                         </div>
                         <div className="hero--right">
                             <div className="hero--right__img">
-                                {/*<img className="menImage" src={men}/>*/}
+                                {/*<img src={hero} alt="img"/>*/}
                             </div>
                         </div>
                     </div>
 
-                    <div className="articless">
+                    <div className="articles">
                         <h1>Последние статьи</h1>
-
                     </div>
                 </div>
 

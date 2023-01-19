@@ -1,7 +1,6 @@
 #hero {
-  background: url("./../../../../../assets/img/herobgggggg.png") no-repeat center/cover;
-  min-height: 220vh;
-  position: relative;
+  background: url("./../../../../../assets/img/herobgggggg.png") no-repeat top/cover;
+  min-height: 160vh;
 
   .hero {
     display: flex;
@@ -9,7 +8,7 @@
     justify-content: space-between;
 
     &--left {
-      padding-top: 200px;
+      padding-top: 290px;
 
       h1 {
         font-weight: 700;
@@ -19,21 +18,28 @@
       }
 
       p {
+        padding-top: 35px;
         font-weight: 500;
         font-size: 16px;
         line-height: 25px;
-
-        margin-top: 25px;
-
         color: #FFFFFF;
+      }
+    }
+
+    &--right {
+      &__img {
+        img{
+          width: 110%;
+          border-radius: 50%;
+        }
       }
     }
   }
 
-  .articless {
-    position: absolute;
-    right: 37%;
-    top: 67%;
+  .articles {
+    display: flex;
+    justify-content: center;
+    padding-top: 499px;
 
     h1 {
       color: #ffffff;

@@ -1,120 +1,80 @@
 @import "headerBurger/HeaderBurger";
 @import "log_in/modal/Modal";
 @import "log_in/Log_in";
+@import "src/components/style/Mixin";
 
 
 #header {
+  background: rgba(10, 17, 40, 0.4);
+  backdrop-filter: blur(22px);
+  padding: 25px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+
   .header {
-    background: #0A1128;
-    position: fixed;
-    z-index: 99;
-    width: 93%;
-    margin: -30px 0 0 -10px;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include between();
 
-    &-left {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
+    &--left {
+      @include center();
 
-      &-nav {
+      &__nav {
+        padding-left: 30px;
+
         a {
+          margin: 0 20px;
           font-weight: 500;
           font-size: 16px;
-          margin: 0 20px;
           color: #FFFFFF;
+          transition: .5s;
+
+          &:hover {
+            text-decoration-line: underline;
+          }
         }
 
-        .active {
-          border-bottom: 1px solid #FFFFFF;
-        }
       }
+
     }
 
-    &-btn {
-      margin-right: 35px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 300px;
+    &--btn {
+      @include center();
 
-      &-come, &-register {
-        font-family: 'Montserrat', sans-serif;
+      &__come {
+        background: transparent;
+        margin: 0 20px;
         font-weight: 500;
         font-size: 16px;
-        line-height: 20px;
-        text-align: center;
         color: #FFFFFF;
-        background: none;
-        border: none;
-        cursor: pointer;
-      }
-
-      &-register {
-        width: 190px;
-        height: 45px;
-        background: #034078;
-        border-radius: 5px;
-        transition: .4s;
+        transition: .5s;
 
         &:hover {
-          transform: scale(1.1);
-          background: transparent;
-          border: 2px solid #034078;
-          text-align: center;
-
-          &:active {
-            position: relative;
-            top: 3px;
-            transition: 5ms;
-            color: #FFFFFF;
-            background: none;
-            border: none;
-            text-align: center;
-
-          }
-        }
-
-        &-come {
-          &:active {
-            position: relative;
-            top: 3px;
-            transition: 5ms;
-            width: 80px;
-            height: 45px;
-
-            border-radius: 5px;
-          }
+          text-decoration-line: underline;
         }
       }
 
-      &-icon {
-        background: none;
-        font-size: 22px;
-        color: #FFF;
-        margin: 0 20px 0 0;
-        border: none;
-
+      &__register {
+        @include btn();
       }
+
     }
+
   }
 
   .burger {
     position: relative;
     display: none;
     justify-content: space-between;
-    //align-items: center;
-    &-menu {
+    align-items: center;
+
+    &--menu {
       width: 42px;
       Height: 3.5px;
       background: #FFFFFF;
       border-radius: 1px;
     }
 
-    &-menu:before {
+    &--menu:before {
       content: '';
       position: absolute;
       top: 10px;
@@ -125,7 +85,7 @@
 
     }
 
-    &-menu:after {
+    &--menu:after {
       content: '';
       position: absolute;
       top: 20px;
