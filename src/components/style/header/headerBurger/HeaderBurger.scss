@@ -1,13 +1,13 @@
-.burgerMenu{
+.burgerMenu {
   transform: translateY(-500px);
   transition: 1s;
   //margin: 30px;
 
-  .burger{
+  .burger {
     //position: absolute;
-    margin-top: 30px;
+    //margin-top: 30px;
 
-    &-link{
+    &-link {
       display: flex;
       //justify-content: center;
       align-items: center;
@@ -20,7 +20,8 @@
       padding: 40px 0 0 0;
       top: -30px;
       border-radius: 0 0 40px 40px;
-      &-span{
+
+      &-span {
         /// padding: 10px 10px;
         color: white;
         position: absolute;
@@ -28,26 +29,29 @@
         top: 20px;
         z-index: 1;
         background: none;
-        &-icon{
+
+        &-icon {
           //color: #FFFFFF;
           font-size: 35px;
         }
 
       }
-      &-come{
+
+      &-come {
         color: #FFFFFF;
         font-size: 20px;
         font-weight: 400;
         margin: 40px 0 0 0;
 
-        &-btn{
+        &-btn {
           background: none;
           border: none;
           color: #FFFFFF;
           font-size: 20px;
           //font-weight: ;
         }
-        &-reg{
+
+        &-reg {
           color: #FFFFFF;
           font-size: 20px;
           padding: 12px 15px;
@@ -63,7 +67,8 @@
 
   }
 }
-.menu{
+
+.menu {
   transform: translateY(0);
   transition: 1s;
 

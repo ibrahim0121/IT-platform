@@ -2,18 +2,50 @@
 @import "header/Header";
 @import "footer/Footer";
 @import "home/global/Global";
+@import "Variables";
+@import "Mixin";
 
 * {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
-body{
+
+body {
   margin: 0;
   padding: 0;
   background: #0A1128;
 
 }
+
 .container {
   width: 85%;
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  transition: .5s;
+}
+
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A1128;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #034078;
+  border-radius: 20px;
 }

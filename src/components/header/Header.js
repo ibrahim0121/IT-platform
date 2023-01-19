@@ -15,7 +15,7 @@ const Header = () => {
     const scroll = () => {
         if (burger === true) {
             return document.body.style.overflow = "hidden"
-        } else document.body.style.overflow = "aut o"
+        } else document.body.style.overflow = "auto"
     }
 
     useEffect(() => {
@@ -27,28 +27,28 @@ const Header = () => {
             <header id="header">
                 <div className="container">
                     <div className="header">
-                        <div className="header-left">
-                            <NavLink to="/" className="header-left-logo">
-                                <img src={logo} alt=""/>
+                        <div className="header--left">
+                            <NavLink to="/" className="header--left--logo">
+                                <img src={logo} alt="img"/>
                             </NavLink>
-                            <div className="header-left-nav">
+                            <div className="header--left__nav">
                                 <NavLink to="/school">О школе</NavLink>
                                 <NavLink to={"/our_curses"}>Наши курсы</NavLink>
                                 <NavLink to="/about">О нас</NavLink>
                             </div>
                         </div>
-                        <div className="header-btn">
+                        <div className="header--btn">
                             <NavLink to="/notification">
-                            <span className="header-btn-icon">
+                            <span className="header--btn__icon">
                                 {/*<FaRegBell className="header-btn-icon-i"/>*/}
                             </span>
                             </NavLink>
                             {/*<NavLink to="log_in">*/}
                             <div>
-                                <button className="header-btn-come" onClick={() => setModalActive(true)}>Войти</button>
+                                <button className="header--btn__come" onClick={() => setModalActive(true)}>Войти</button>
                                 <Log_in active={modalActive} setActive={setModalActive}>
                                     <div className="modal--block">
-                                        <div className="modal--block--inputs">
+                                        <div className="modal--block__inputs">
 
                                         </div>
                                     </div>
@@ -56,16 +56,16 @@ const Header = () => {
                             </div>
                             {/*</NavLink>*/}
                             <NavLink to="/register">
-                                <button className="header-btn-register">Подписаться</button>
+                                <button className="header--btn__register">Подписаться</button>
                             </NavLink>
 
                         </div>
                     </div>
                     <div className="burger">
-                        <NavLink to="/" className="header-left-logo">
+                        <NavLink to="/" className="header--left__logo">
                             <img src={logo} alt=""/>
                         </NavLink>
-                        <div onClick={() => setBurger(!burger)} className="burger-menu">
+                        <div onClick={() => setBurger(!burger)} className="burger--menu">
 
                         </div>
 

@@ -5,7 +5,8 @@ import Articles from "./articles/Articles";
 const Global = () => {
     return (
         <>
-          <Hero/>
+            <Hero/>
+            <Articles/>
         </>
     );
 };
