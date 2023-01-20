@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
 
 // ----image---
-import image from "./../../../assets/img/logo-it.svg"
 import logo from "../../../assets/img/logo-it.svg";
 
 // ---icons---
@@ -13,7 +12,6 @@ import {BiShow} from "react-icons/bi"
 const Log_in = ({active, setActive}) => {
     const [loop, setLoop] = useState(false)
     const [email, setEmail] = useState(false)
-    const [addPassword, setAddPassword] = useState(false)
 
     const [user, setUser] = useState({
         email: "",

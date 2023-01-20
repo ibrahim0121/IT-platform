@@ -22,16 +22,9 @@
       <change beforePath="$PROJECT_DIR$/src/components/style/home/global/hero/Hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/style/home/global/hero/Hero.scss" afterDir="false" />
     <list default="true" id="0152edf8-8b66-4073-91a1-439aec895613" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/svg/ArrowSvg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/ArrowSvg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/global/Global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/global/Global.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/global/questions/Questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/global/questions/Questions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/log_in/Log_in.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/log_in/Log_in.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/global/request/Request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/global/request/Request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/global/subscribe/Subscribe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/global/subscribe/Subscribe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/style/home/global/Global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/style/home/global/Global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/style/home/global/questions/Questions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/style/home/global/questions/Questions.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/style/home/global/request/Request.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/style/home/global/request/Request.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/style/home/global/subscribe/Subscribe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/style/home/global/subscribe/Subscribe.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +94,8 @@
       <workItem from="1673865465288" duration="6390000" />
       <workItem from="1673935281070" duration="14688000" />
       <workItem from="1674022777847" duration="12910000" />
-      <workItem from="1674107988978" duration="695000" />
+      <workItem from="1674107988978" duration="5513000" />
+      <workItem from="1674124488934" duration="1198000" />
     </task>
     <servers />
   </component>
